@@ -1,1 +1,94 @@
 /* Your styles here */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:rgb(26,35,48) ;
+    height:60px;
+}
+
+header > img {
+    padding: 15px 20px;
+    height:35px;
+}
+nav{padding:10px 20px;
+    background-color: rgb(41, 45, 71);
+}
+nav  li{color:white;
+    
+    padding: 0 7px;
+    display: inline;
+}
+
+.gift{margin:25px 25px;
+    text-align: center;
+    line-height: 1.9rem;
+    background-color: rgb(241,79,6);
+    color:white;
+    height:30px;
+    margin-bottom: 0;
+}
+.holidayGift{ height:130px;
+    background-image: url(../images/bg-image.png);
+    margin:25px 25px;
+    padding-top: 50px;
+}
+.holidayGift h1,h2{line-height: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+.holidayGift h1{
+    font-size: 17pt;
+}
+.perfect{
+    margin-left: 35px;
+}
+.perfect p{
+    display:inline;
+    margin-left: 15px;
+    padding: 5px 0px;
+}
+span{ font-size: 10pt;
+    font-weight: bold;
+    color: rgb(13,62,83)
+}
+
+.fourImages{text-align: center;
+    padding: 5px 0;
+    margin: 5px 50px;
+    
+}
+.fourImages img{
+    
+    height: 280px;
+
+    width: 240px;
+    padding: 20px 20px;
+    border-radius: 35px;
+}
+
+.twoImages{ margin: 25px 25px;
+   
+
+}
+.twoImages figure{
+    text-align: center;
+    margin:30px 0px;
+}
+.backToTop{ background-color: rgb(41, 45, 71);
+    height:40px;
+    text-align: center;
+    line-height: 2.3rem;
+    color:white;
+
+}
+footer{text-align: center;
+    padding: 40px 0;
+    background-color: rgb(26,35,48);
+}
+
+footer img{
+    height:45px;
+}
